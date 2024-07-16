@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form filling</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    background-color: antiquewhite;
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0px  0px 20px ;
+    border-radius: 15px;
+}
+.wrapper h2{
+    background-color: antiquewhite;
+    color:blue ;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px ;
+    padding: 10px;
+    border: 2px blue dashed;
+    border-radius: 15px;
+    
+}     
+.wrapper h4{
+    color: blue;
+    padding: 10px;
+    margin:0px;
+    
+}   
+.input_group{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding: 5px;
+}
+            
+        
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Payment Form</h2>
+        <form action="" method="POST" >
+        <!-- account info starts -->
+<h4>Account</h4>
+<div class="input_group">
+    <div class="input_box">
+        <input type="text" name="account" class="name" placeholder="Full name">
+    </div>  
+    </div> 
+    <div class="input_group">
+        <div class="input_box">
+            <input type="text" name="account" class="name" placeholder="Card name">
+        </div>  
+        </div> 
+        <div class="input_group">
+            <div class="input_box">
+                <input type="email" name="account" class="name" placeholder="email">
+            </div>  
+            </div> 
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" name="account" class="name" placeholder="Address">
+                </div>  
+                </div> 
+    <!-- account info starts -->
+     <!-- dob -->
+      <h4>Date of birth</h4>
+     <div class="input_group">
+        <div class="input_box">
+            <input type="text" name="account" class="Dob" placeholder="dd">
+            <input type="text" name="account" class="Dob" placeholder="mm">
+            <input type="text" name="account" class="Dob" placeholder="yyyy">
+
+        </div>
+        <div class="input_box" >
+            <input type="radio" name="gender" id="b1" checked >
+            <label for="b1">Male</label>
+            <input type="radio" name="gender" id="b2">
+            <label for="b2">Female</label>
+
+        </div>
+        <!-- payment details start -->
+<div id="input_group">
+<div id="input_box">
+<h4>Payment details </h4>
+<input type="radio" name="pay" id="bc1" class="radio" checked>
+<label for="bc1">Credit card</label>
+<input type="radio" name="pay" id="bc2" class="radio" checked>
+<label for="bc2">Phone pay</label>
+<input type="radio" name="pay" id="bc3" class="radio" checked>
+<label for="bc3">paytm</label>
+</div>
+</div>
+<div id="input_box">
+    <input type="tel" name="card number" id="Cnumb" class="" placeholder="Card number 1111-2222-3333-4444">
+    <div id="input_box">
+        <input type="tel" name="card number" id="CVV" class="" placeholder="CVV">
+        <div id="input_box">
+            <input type="number" name="card number" id="Cnumb" class="" placeholder="expire date">
+            <div id="input_box">
+                <input type="number" name="card number" id="Cnumb" class="money" placeholder="enter amount">
+                 
+</div>
+
+
+        <!-- payment details start -->
+<div id="input_group">
+<div id="input_box">
+
+    <button type="submit" >Pay Now</button>
+</div>
+</div>
+        </div> 
+    </form>
+
+        </div>
+    <footer></footer>
+</body>
+</html>
