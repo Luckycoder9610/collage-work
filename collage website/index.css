@@ -3,6 +3,8 @@ body{
 }
 *{
 box-sizing: border-box;
+/* margin: 0%;
+padding: 0%; */
 }
 header{
 height: 50px;
@@ -19,7 +21,7 @@ color: #38404f;
 /* padding-right: 13px; */
 text-decoration: none;
 font-size: 15px;
-font: 700;
+font: 600;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -157,4 +159,68 @@ justify-content: space-around;
 .sabka-baap .below-para .first-plan .sher-img{
 
 border-radius: 7px;
+}
+.explore nav {
+     display: flex;
+     justify-content: space-between;
+     /* padding-bottom: 20px; */
+     border-bottom : 1px solid  #38404F   ;
+    
+     /* margin-right: 500px; */
+    
+
+}
+.explore nav a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    /* width:  60px; */
+    color: #38404F;
+    margin-left: 60px;
+    /* padding-right: 100px */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    padding-bottom: 20px;
+   
+}
+.explore nav a:hover  {
+
+    border-bottom: 3px solid orangered ;
+}
+
+
+
+
+ h2{
+    width: 970px; height: 40px;  font-size: 40px ;  font-family: 'Poppins', sans-serif;  font-weight: 700; margin: 60px;
+    /* margin-top: 40px ;  */
+    color: #38404F;    
+
+}
+.explore-image{
+    display: flex;
+}
+.explore-image .first-image{
+    padding: 12px;
+    padding-top: 60px;
+   
+}
+
+
+.explore-image .vertical-image{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    padding-top: 60px;
+    }
+.first-1{
+    width:   403px  ;
+    height:   360px ;
+    
+}
+
+.second-2{
+
+    height: 169px ;
+    width: 175px;
+
 }
