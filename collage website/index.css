@@ -12,7 +12,10 @@ height: 50px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-/* z-index: 2; */
+border-bottom: 1px solid #38404f ;
+background-color: aliceblue;
+margin-bottom: 20px;
+
 
 }
 .nav-bar a{
@@ -48,17 +51,39 @@ text-decoration: none;
 color: #38404f;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.kedarnath{
-/* padding-right: 45px; */
-border-radius: 2px;
-}
-.slide-view{
-padding-right: 45px;
-/* display: inline; */
-/* position: relative; */
-/* display: inline; */
-/* justify-content: space-between; */
 
+.slide-view {
+    background-image: url(https://w0.peakpx.com/wallpaper/810/25/HD-wallpaper-shiva-kedarnath-mahadev-mahadev-mahakal.jpg);
+padding-right: 45px ;
+animation: slider1 20s linear  1s  infinite  ;
+height:580px; 
+width:319px;
+background-size: 100% 100%;
+}
+
+@keyframes slider1 { 
+    0%{
+        background-image: url(https://w0.peakpx.com/wallpaper/810/25/HD-wallpaper-shiva-kedarnath-mahadev-mahadev-mahakal.jpg);
+        
+    }
+    25%{
+        background-image: url(https://www.tourmyindia.com/imagess/tiger-banner.webp);
+    
+        
+    }
+    50%{
+        background-image: url(https://www.tourmyindia.com/imagess/kashmir-banner.webp);
+        
+    }
+    75%{
+        background-image: url(https://www.tourmyindia.com/imagess/tajmahal.webp);
+        
+    }
+    100%{
+        background-image: url(https://www.tourmyindia.com/imagess/sikkim-banner.webp);
+        
+    }
+    
 }
 
 main{
@@ -73,9 +98,9 @@ z-index: -2;
 /* display: flex; */
 /* position: relative; */
 justify-content: space-between;
-width: 760px;
+width: 1000px;
 margin-left: 0;
-margin-right: 100px;
+
 
 
 }
@@ -191,13 +216,17 @@ border-radius: 7px;
 
 
  h2{
-    width: 970px; height: 40px;  font-size: 40px ;  font-family: 'Poppins', sans-serif;  font-weight: 700; margin: 60px;
+    width: 970px; height: 50px;  font-size: 50px ;  font-family: 'Poppins', sans-serif;  font-weight: 700; margin: 60px;
     /* margin-top: 40px ;  */
     color: #38404F;    
 
 }
 .explore-image{
     display: flex;
+    width: 100%;
+    /* padding-right: 50px; */
+    /* padding-left: 50px; */
+    /* align-items: center; */
 }
 .explore-image .first-image{
     padding: 12px;
@@ -209,19 +238,31 @@ border-radius: 7px;
 .explore-image .vertical-image{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 12px;
     padding-top: 60px;
     
     }
 .first-1{
-    width:   403px  ;
-    height:   360px ;
+    /* width:   403px  ; */
+    /* height:   360px ; */
     border-radius: 4px;
+    height: auto;
 }
+.first-1:hover{
+
+    border: 2px #ff6612 solid;
+}
+
 
 .second-2{
     border-radius: 4px;
-    height: 169px ;
-    width: 175px;
+    /* height: 169px ; */
+    /* width: 175px; */
+height: auto;
+}
 
+.second-2:hover{
+
+    border: 2px #ff6612 solid;
 }
