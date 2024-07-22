@@ -211,15 +211,16 @@ border-radius: 7px;
     flex-direction: column;
     padding: 12px;
     padding-top: 60px;
+    
     }
 .first-1{
     width:   403px  ;
     height:   360px ;
-    
+    border-radius: 4px;
 }
 
 .second-2{
-
+    border-radius: 4px;
     height: 169px ;
     width: 175px;
 
